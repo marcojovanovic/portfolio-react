@@ -1,0 +1,91 @@
+/*=======================================
+0.8 testimonial-area start
+=========================================*/
+.testimonial-area{
+  padding: 100px 0 210px;
+  border-top: 1px solid rgba(102,102,102,.3);
+  position: relative;
+}
+
+
+.testemonial__img{
+
+  width: 100%;
+  height: 24rem;
+  object-fit: cover;
+
+}
+
+
+.testimonial-img {
+  width: 11%;
+  margin: auto;
+  z-index: 99;
+  position: relative;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.testimonial-img img{
+border-radius: 50%;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.testimonial-item {
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.testimonial-item p {
+  padding-top: 10px;
+  position: relative;
+  font-size: 18px;
+  color:#999;
+}
+
+.testimonial-item h4{
+font-weight: 700;
+font-size: 24px;
+color:#fff;
+padding-top: 10px;
+font-family: 'Open Sans', sans-serif;
+}
+.testimonial-item span{
+font-size: 14px;
+color:#ddd;
+}
+.testimonial-active {
+margin: auto;
+}
+.testimonial-active .slick-dots {
+  position: absolute;
+  bottom: -50px;
+}
+.testimonial-active .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 10px;
+}
+.testimonial-active .slick-dots li button:after{
+  position: absolute;
+  left: 0;
+  top: -10%;
+  width: 102%;
+  height: 102%;
+  content: "";
+  border: 1px solid #333;
+  border-radius: 50%;
+  text-align: center;
+}
+.testimonial-icon .fi{
+color:#ed5217;
+}
+.owl-theme .owl-dots .owl-dot span{
+display: none;
+}
+
+.slick-slide div:focus{
+  outline: none;
+}

@@ -1,0 +1,270 @@
+
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500|Oswald:300,400,500,700");
+/*--------------------------------------------------------------
+#0.1    Template Reset Style
+--------------------------------------------------------------*/
+html {
+  font-size: 15px;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #111;
+  font-size: 15px;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+p {
+  color: #999;
+  line-height: 1.7em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  color: #2a2a2a;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*--------------------------------------------------------------
+#0.2   Global Elements
+--------------------------------------------------------------*/
+.page-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.borderd{
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: rgba(102,102,102,.3)!important;
+  z-index: -1;
+}
+.hero-slider-wrapper{
+  position: relative;
+}
+
+.box-style {
+  padding: 0 60px;
+}
+
+@media (max-width: 1199px) {
+  .box-style {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .box-style {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-style {
+    padding: 0 10px;
+  }
+}
+
+.wow {
+  visibility: hidden;
+}
+
+.fi:before {
+  margin: 0;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+@media (max-width: 991px) {
+  .section-padding {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-padding {
+    padding: 90px 0;
+  }
+}
+
+.mr-bt-0 {
+  margin-bottom: 0 !important;
+}
+
+.section-title h2 {
+    font-size: 48px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin: 0.31em 0 0;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.section-title span {
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+
+
+.template-btn{
+  font-family: "Oswald", sans-serif;
+  height: 50px;
+  line-height: 47px;
+  font-size: 16px;
+  font-size: 1.06667rem;
+  color: #fff;
+  border: 1px solid white;
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 50px;
+
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.template-btn:hover{
+  background: #ddd;
+  color:#333;
+}
+/*** back to top **/
+.back-to-top {
+  background-color: rgba(102, 102, 102, 0.9);
+  width: 55px;
+  height: 55px;
+  line-height: 45px;
+  border: 2px solid #666;
+  text-align: center;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 15px;
+  bottom: 15px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media (max-width: 991px) {
+  .back-to-top {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
+
+.back-to-top:hover {
+  background-color: #333;
+}
+
+.back-to-top i {
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.header-style-1 #navbar > ul li:last-child a {
+  margin-bottom: 0;
+}
+.header-style-1 .navigation-holder {
+  right: -526px;
+}
+.header-style-1 .navigation-holder.active {
+  right: 0;
+}
+
+
+
