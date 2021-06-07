@@ -44,7 +44,7 @@
 
 .footer__logo{
 
-  width: 5%;
+  width: calc(2rem + 2vw);
 }
 
 

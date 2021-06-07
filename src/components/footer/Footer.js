@@ -20,24 +20,8 @@ function Footer() {
             </div>
             <div className="col-12">
               <div className="footer-menu">
-                <ul className="d-flex ">
-                  <li>
-                    <Link to="/">
-                      <i className="fa fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <i className="fa fa-dribbble"></i>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/">
-                      <i className="fa fa-linkedin"></i>
-                    </Link>
-                  </li>
-                </ul>
+                
+               
               </div>
             </div>
             <div className="col-12">

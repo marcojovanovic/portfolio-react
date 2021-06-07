@@ -7,11 +7,11 @@ import sr3 from '../../Assets/Images/service/3.png';
 import sr4 from '../../Assets/Images/service/4.png';
 import sr5 from '../../Assets/Images/service/5.png';
 
-import './service.css'
+import './tech.css'
 
 function Service() {
   return (
-    <div id="service" className="service-area section-padding">
+    <div id="tech" className="service-area section-padding">
       <div className="borderd"></div>
       <div className="container">
         <div className="col-l2">

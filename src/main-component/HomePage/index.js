@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../../components/header/Banner';
 import About from '../../components/about/About';
-import Service from '../../components/service/Service';
+import Tech from '../../components/tech/Tech';
 import Contact from '../../components/contact/Contact';
 import Footer from '../../components/footer/Footer';
 import Testimonial from '../../components/testimonial/Testimonial';
@@ -18,7 +18,7 @@ const HomePage =() => {
             <Navbar />
             <Banner/>
             <About/>
-            <Service/>
+            <Tech/>
             <Portfolio/>
             <Testimonial/>
             <Contact/>

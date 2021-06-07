@@ -3,8 +3,8 @@
 ===============================*/
 .about-area {
   overflow: hidden;
-  padding-top: 150px;
-  padding-bottom: 200px;
+  padding-top: 14rem;
+  padding-bottom: 8rem;
   border-top: 1px solid rgba(102,102,102,.3);
   position: relative;
   background: #2a2a2a;
@@ -66,6 +66,12 @@
 .about-content {
   padding: 0px 0px 40px;
   padding-left: 50px;
+}
+
+@media (max-width: 650px) {
+ .about-content{
+   padding-left: 0;
+ }
 }
 
 .about-content h2 {
