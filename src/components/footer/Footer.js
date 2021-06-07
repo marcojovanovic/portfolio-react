@@ -21,7 +21,19 @@ function Footer() {
             <div className="col-12">
               <div className="footer-menu">
                 
-               
+              <ul>
+          <li>
+            <Link
+              to={{
+                pathname: 'https://github.com/marcojovanovic',
+              }}
+              target="_blank"
+            >
+              <i className="fa fa-github-square fa-2x"></i>
+            </Link>
+          </li>
+           </ul>
+
               </div>
             </div>
             <div className="col-12">
