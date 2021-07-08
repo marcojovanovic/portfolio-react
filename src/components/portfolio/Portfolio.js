@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Gallery_2 from '../../Assets/Images/gallery/asot.png';
 import Gallery_1 from '../../Assets/Images/gallery/firebase-blog.png';
 import Gallery_3 from '../../Assets/Images/gallery/food-delivery.png';
+import Gallery_4 from '../../Assets/Images/gallery/bitkoin.png';
 import { Link } from 'react-router-dom';
 
 import './portfolio.css'
@@ -68,6 +69,17 @@ class Porfolio extends Component {
         onPrintDesign: false,
         onWebDesign: false,
         isOpen: true,
+      });
+    };
+
+    const Bitkoin = (event) => {
+      event.preventDefault();
+      this.setState({
+        onPhotography: false,
+        onWebApp: true,
+        onPrintDesign: false,
+        onWebDesign: false,
+        isOpen: false,
       });
     };
 
@@ -201,6 +213,34 @@ class Porfolio extends Component {
                     </Link>
                   </div>
                 </div>
+                <div
+                  className={
+                    this.state.onWebApp
+                      ? 'grid active'
+                      : 'grid' && this.state.Bitkoin
+                      ? 'grid active'
+                      : 'grid' && this.state.isOpen
+                      ? 'grid'
+                      : 'grid open'
+                  }
+                >
+                  <img src={Gallery_4} alt="" className="portfolio__img" />
+                  <div className="icon">
+                    <Link
+                      to={{
+                        pathname: 'https://bitkoin-market-829a81.netlify.app/',
+                      }}
+                      className="view-icon"
+                      target="_blank"
+                    >
+                      <i className="fa fa-plus" aria-hidden="true"></i>
+                    </Link>
+                  </div>
+                </div>
+
+
+
+
               </div>
             </div>
           </div>
